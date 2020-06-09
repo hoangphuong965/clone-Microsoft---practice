@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+  padding-bottom: 2px;
+}
+a:hover {
+  border-bottom: 2px solid black;
+}
+/* navigation */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1300px;
+}
+.logo img {
+  margin-top: 1.4rem;
+  max-width: none;
+  width: 108px;
+}
+.navigation-right-item,
+.navigation-left-item {
+  display: flex;
+  margin: 1rem;
+}
+.navigation-right-item li,
+.navigation-left-item li {
+  list-style: none;
+  margin: 10px;
+}
+.navigation-right ul,
+.navigation-left ul {
+  display: flex;
+}
+.win10 {
+  margin-top: 7px !important;
+}
+.win10::before {
+  content: "|";
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.buy {
+  border: 1px solid;
+  border-radius: 3px;
+  height: 31px;
+  padding: 6px;
+  margin-top: 0px !important;
+  font-weight: 600;
+}
+#buy-win:hover {
+  text-decoration: underline !important;
+  border-bottom: none;
+}
+
+
+/* showcase */
+.showcase {
+  position: relative;
+  width: 100%;
+  height: 712px;
+  background: url(img/banner1.jpg) no-repeat center center/cover;
+}
+.showcase-text {
+  position: absolute;
+  width: 25rem;
+  left: 60%;
+  top: 40%;
+}
+.showcase-text h1 {
+  font-size: 40px;
+  line-height: 56px;
+  padding: 37px 0 3px;
+  font-weight: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.showcase-text p {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* support */
+.support{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 24px;
+  padding: 3rem 120px;
+}
+
+.using-img img,
+.request-img img{
+  width: 570px;
+  height: 321px;
+}
+
+.using-text,
+.request-text{
+  padin
+
+}

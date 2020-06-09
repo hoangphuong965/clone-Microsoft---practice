@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width: 1400px;
+}
+
+a{
+    text-decoration: none;
+}
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.log{
+    
+}
+.navigation-left-item{
+    display: flex;
+    margin: 1rem;
+}
+.navigation-left-item li{
+    list-style: none;
+    margin: 10px;
+}
+
+.navigation-left ul{
+    display: flex;
+}

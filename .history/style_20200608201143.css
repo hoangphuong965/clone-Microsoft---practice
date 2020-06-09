@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width: 1200px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-left-item{
+    display: flex;
+}
+.navigation-left ul{
+    display: flex;
+}

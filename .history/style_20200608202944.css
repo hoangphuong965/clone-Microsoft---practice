@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width: 1400px;
+}
+
+a{
+    text-decoration: none;
+}
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    margin-top: 1.4rem;
+    max-width: none;
+    width: 108px;
+}
+.navigation-right-item,
+.navigation-left-item{
+    display: flex;
+    margin: 1rem;
+}
+.navigation-left-item li,
+.navigation-left-item li{
+    list-style: none;
+    margin: 10px;
+}
+
+.navigation-left ul{
+    display: flex;
+}
