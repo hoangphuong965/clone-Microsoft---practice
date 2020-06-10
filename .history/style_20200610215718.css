@@ -195,11 +195,11 @@ a:hover {
   padding: 0 0 2px;
   font-weight: 100;
   text-align: left;
-  padding: 0 48px;
 }
 .feature-text-left p{
   text-align: left;
   font-size: 18px;
+  line-height: 24px;
   font-weight: 200;
   padding: 10px 48px;
 }

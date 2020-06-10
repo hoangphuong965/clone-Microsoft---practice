@@ -145,7 +145,6 @@ a:hover {
   font-size: 20px;
 }
 
-/* feature-1 */
 .feature-1{
   display: grid;
   grid-template-columns: auto auto;
@@ -174,32 +173,4 @@ a:hover {
   color: #0067b8;
   text-decoration: underline;
   border-bottom: none;
-}
-
-/* feature-2 */
-.feature-2{
-  display: grid;
-  grid-template-columns: auto auto;
-}
-.feature-text-left{
-  padding-top: 40%;
-}
-.feature-2 img {
-  width: 820px;
-  height: 460px;
-}
-
-.feature-text-left h2{
-  font-size: 34px;
-  line-height: 40px;
-  padding: 0 0 2px;
-  font-weight: 100;
-  text-align: left;
-  padding: 0 48px;
-}
-.feature-text-left p{
-  text-align: left;
-  font-size: 18px;
-  font-weight: 200;
-  padding: 10px 48px;
 }

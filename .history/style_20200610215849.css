@@ -180,6 +180,7 @@ a:hover {
 .feature-2{
   display: grid;
   grid-template-columns: auto auto;
+  padding: 3rem 0;
 }
 .feature-text-left{
   padding-top: 40%;
